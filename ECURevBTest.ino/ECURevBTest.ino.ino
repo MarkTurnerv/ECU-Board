@@ -40,6 +40,7 @@ void setup() {
   pinMode(pin12V_ENABLE,OUTPUT);
   pinMode(pinSW_I_HRES_EN,OUTPUT);
   pinMode(pinSW_IMON_EN,OUTPUT);
+  pinMode(pinSW_IMON,INPUT);
   pinMode(pinV_ZEPHR_VMON,INPUT);
   pinMode(pin12V_MON,INPUT);
   pinMode(pin5V_MON,INPUT);
